@@ -1,4 +1,4 @@
 node_modules
 *.xlsx
 *.xlsx#
-index.js
+src/*.js

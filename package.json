@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon",
+    "debug": "ts-node ./src/index.ts",
     "tsc": "tsc"
   },
   "dependencies": {
