@@ -1,0 +1,20 @@
+{
+  "name": "excel-exporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Feyzullah YILDIZ <ahmet.feyzullah.yildiz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "exceljs": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.8",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
