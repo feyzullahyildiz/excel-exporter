@@ -10,6 +10,19 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js"
-        }
+        },
+        {
+			"name": "Node Inspector",
+			"type": "node",
+			"request": "launch",
+			"args": ["${workspaceFolder}/src/index.ts"],
+			"runtimeArgs": ["-r", "ts-node/register"],
+			"cwd": "${workspaceFolder}",
+			"protocol": "inspector",
+			"internalConsoleOptions": "openOnSessionStart",
+			// "env": {
+			// 	"TS_NODE_IGNORE": "false"
+			// }
+		}
     ]
 }
